@@ -27,6 +27,9 @@ jobs:
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick
           coverage: none
 
+      - name: Configure Composer
+        run: composer config -g audit.block-insecure false
+
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress --no-audit
 
