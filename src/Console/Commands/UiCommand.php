@@ -8,6 +8,14 @@ use Illuminate\Console\Command;
 use InvalidArgumentException;
 use Symfony\Component\Console\Attribute\AsCommand;
 
+/**
+ * Class UiCommand
+ *
+ * @package   Skywalker\Ui
+ * @author    Skywalker Labs Team <skywalkerlknw@gmail.com>
+ * @version   1.0.0
+ * @since     1.0.0
+ */
 #[AsCommand(name: 'ui')]
 class UiCommand extends Command
 {

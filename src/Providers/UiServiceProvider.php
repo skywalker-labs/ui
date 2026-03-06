@@ -11,6 +11,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Skywalker\Support\ToolkitServiceProvider;
 
+/**
+ * Class UiServiceProvider
+ *
+ * @package   Skywalker\Ui
+ * @author    Skywalker Labs Team <skywalkerlknw@gmail.com>
+ * @version   1.0.0
+ * @since     1.0.0
+ */
 class UiServiceProvider extends ServiceProvider
 {
     /**
