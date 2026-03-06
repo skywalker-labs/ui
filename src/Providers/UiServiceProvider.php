@@ -22,6 +22,13 @@ use Skywalker\Support\ToolkitServiceProvider;
 class UiServiceProvider extends ServiceProvider
 {
     /**
+     * The package version.
+     *
+     * @var string
+     */
+    public const VERSION = '1.0.0';
+
+    /**
      * Register the package services.
      *
      * @return void
