@@ -1,0 +1,46 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Testing
+/.phpunit.result.cache
+/phpunit.xml
+/tests/Setup/
+/tests/temp/
+/_output/
+/coverage
+*.txt
+*.log
+
+# IDEs and Editors
+/.idea
+/.vscode
+*.swp
+*.swo
+.project
+.settings
+.buildpath
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Laravel and Package specific
+.env
+.env.testing
+/auth.json
+/Homestead.json
+/Homestead.yaml
+composer.lock
+
+# Build artifacts
+/dist
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*

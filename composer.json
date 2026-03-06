@@ -1,0 +1,71 @@
+{
+    "name": "skywalker-labs/ui",
+    "description": "Frontend presets and powerful UI utilities for Laravel applications by Skywalker Labs.",
+    "keywords": [
+        "laravel",
+        "skywalker",
+        "ui"
+    ],
+    "homepage": "https://github.com/skywalker-labs/ui",
+    "license": "MIT",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/skywalker-labs/ui/issues",
+        "source": "https://github.com/skywalker-labs/ui"
+    },
+    "authors": [
+        {
+            "name": "Skywalker Labs Team",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://skywalker-labs.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mradul Sharma",
+            "email": "ermradulsharma0@gmail.com",
+            "homepage": "https://mradulsharma.vercel.app/",
+            "role": "Lead Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ermradulsharma"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "skywalker-labs/toolkit": "^1.4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.35|^8.15|^9.0|^10.0",
+        "phpunit/phpunit": "^9.3|^10.4|^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skywalker\\Ui\\": "src/",
+            "Illuminate\\Foundation\\Auth\\": "src/Foundation/Auth/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skywalker\\Ui\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skywalker\\Ui\\Providers\\UiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
